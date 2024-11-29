@@ -10,3 +10,5 @@ git remote add origin
 git remote set-url origin  
 git remote -v
 git push origin master
+
+this is some new changes
