@@ -3,3 +3,10 @@ git status
 git add <file>
 git add .
 git commit -m "message"
+git config --list 
+rm testing.py 
+git restore testing.py
+git remote add origin https://github.com/prasadramesh03/Shell-scripting-for-DevOps.git    
+git remote set-url origin  https://@github.com/prasadramesh03/Shell-scripting-for-DevOps.git
+git remote -v
+git push origin master
