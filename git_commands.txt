@@ -6,7 +6,7 @@ git commit -m "message"
 git config --list 
 rm testing.py 
 git restore testing.py
-git remote add origin https://github.com/prasadramesh03/Shell-scripting-for-DevOps.git    
-git remote set-url origin  https://@github.com/prasadramesh03/Shell-scripting-for-DevOps.git
+git remote add origin    
+git remote set-url origin  
 git remote -v
 git push origin master
