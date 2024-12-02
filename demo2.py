@@ -1,6 +1,15 @@
-def my_function():
-    password = "yurrrpurrrr"
-    a = 5
-    return a + password
+"""
+This is a simple demo module that defines a function to return a value.
+"""
 
-my_function
+
+def my_function():
+    """
+    This function returns the value 5.
+    """
+    a = 5
+    return a
+
+
+result = my_function()  # Call the function and store the result
+print(result)  # Print the result to demonstrate the function call
