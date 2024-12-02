@@ -1,13 +1,19 @@
 """
-This is a simple demo module.
+This is the demo module for testing purposes.
 """
 
 
-def hello():
+# Function to demonstrate the issue
+def demo_function():
     """
-    This function does nothing and is a placeholder for demonstration.
+    This function demonstrates the issues mentioned in the pylint output.
     """
-    return
+    a = 5  # A variable used for demonstration
+    b = 10  # Another variable used for demonstration
+    d = a + b  # Correctly defined the variable 'd'
+
+    return d
 
 
-hello()
+result = demo_function()
+print(result)
